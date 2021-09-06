@@ -27,7 +27,7 @@
   src: url(../fonts/PT_Sans-Web-Italic.ttf); }
 
 body {
-  font-size: 13px;
+  font-size: 11px;
   font-family: "PT-Sans-Regular"; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -671,7 +671,7 @@ h2 {
   max-width: 350px;
   padding: 60px 30px 30px 30px; }
   .twit-box .media-body h5 {
-    font-size: 15px;
+    font-size: 12px;
     color: #black; }
   .twit-box .media-body p {
     color: #a1a0a1; }
