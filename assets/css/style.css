@@ -524,9 +524,9 @@ h2 {
   .activity .recent {
     margin-top: 0; }
   .activity h2 {
-    color: #584f53; }
+    color: #ffffff; }
   .activity .owl-carousel .owl-nav .owl-prev, .activity .owl-carousel .owl-nav .owl-next {
-    color: #00f0fc;
+    color: #ffffff;
     border-color: #212020; }
     .activity .owl-carousel .owl-nav .owl-prev:hover, .activity .owl-carousel .owl-nav .owl-next:hover {
       background: #212020;
@@ -665,7 +665,7 @@ h2 {
 .twit-box {
   margin: 0 auto;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #f8f9fa;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 350px;
@@ -692,7 +692,7 @@ h2 {
     height: 75px;
     background: url(../img/instagram-logo.png);
     margin-left: -30px;
-    top: -20px; }
+    top: 0px; }
 
 .feed-caro {
   padding-top: 36px; }
@@ -706,7 +706,7 @@ h2 {
     text-align: center;
     margin: 0 10px; }
     .social-links ul li a {
-      border: 1px solid #a59299;
+      border: 1px solid #ffffff;
       border-radius: 50%;
       width: 48px;
       height: 48px;
