@@ -667,7 +667,7 @@ h2 {
   border-radius: 15px;
   background-color: #f8f9fa;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 106%;
   max-width: 350px;
   padding: 60px 30px 30px 30px; }
   .twit-box .media-body h5 {
@@ -691,7 +691,7 @@ h2 {
     width: 70px;
     height: 75px;
     background: url(../img/instagram-logo.png);
-    margin-left: 89px;
+    margin-left: 75px;
     top: 0px; }
 
 .feed-caro {
