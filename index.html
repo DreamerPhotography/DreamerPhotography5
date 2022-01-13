@@ -99,6 +99,7 @@
     <div class="copy pt-4 pb-4">
 	    <p><a href="https://www.instagram.com/riquezacm/" target="_blank"> &copy; 2022 RQZ</a>  &nbsp;  |  &nbsp; Design by <a href="https://www.instagram.com/riqueza_ao/" target="_blank">Riqueza AO</a> &nbsp; | &nbsp;  Todos direitos reservados</p>
     </div>
+	  
 	
 		    
     </footer>
@@ -108,6 +109,43 @@
   <script src="assets/js/bootstrap.min.js"></script> 
   <script src="assets/js/owl.carousel.min.js"></script> 
   <script src="assets/js/main.js"></script>
+	
+	<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?19899';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"WhatsApp",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"left"
+  },
+  "brandSetting":{
+      "brandName":"DreamerPhotography",
+      "brandSubTitle":"Geralmente responde em um dia",
+      "brandImg":"https://lh3.googleusercontent.com/bsbS5CF-GIsYMFhlgf63BVlvZ2i4aW7rqI5aQah8hC9CESv2Q7oMIFlQPVLYhxKy5_iLtg=s153",
+      "welcomeText":"Olá!\nComo posso ajudá-lo?",
+      "messageText":"",
+      "backgroundColor":"#c24414",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":true,
+      "phoneNumber":"244995681346"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
 
 </body>
 </html>
