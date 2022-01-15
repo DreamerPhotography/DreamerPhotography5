@@ -75,7 +75,7 @@ h2 {
         font-size: 16px;
         text-transform: uppercase;
         padding: 7px 10px;
-        color: #fff; }
+        color: #000000; }
     .maine-menu .collapse.show {
       background: rgba(0, 0, 0, 0.5); } }
 
@@ -524,13 +524,13 @@ h2 {
   .activity .recent {
     margin-top: 0; }
   .activity h2 {
-    color: #ffffff; }
+    color: #383838; }
   .activity .owl-carousel .owl-nav .owl-prev, .activity .owl-carousel .owl-nav .owl-next {
-    color: #ffffff;
+    color: #000000;
     border-color: #212020; }
     .activity .owl-carousel .owl-nav .owl-prev:hover, .activity .owl-carousel .owl-nav .owl-next:hover {
       background: #212020;
-      color: #fff; }
+      color: #000000; }
   .activity .card {
     margin-bottom: 0;
     box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.2); }
