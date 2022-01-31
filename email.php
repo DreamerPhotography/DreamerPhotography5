@@ -8,10 +8,10 @@
       die('Connection Failed : '.$conn->connect_error);
     }else{
       $stmt = $conn->prepare("insert into registraion(email) 
-       values(?)"){
+       values(?)");
       $stmt->bind_param("s",$email);
       $stmt->execute();
-      echo ""registration Successfully...";
+      echo "registration Successfully...";
       $stmt->close();
       $conn->close();
     }
